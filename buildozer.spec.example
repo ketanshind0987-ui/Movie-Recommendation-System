@@ -1,0 +1,13 @@
+[app]
+title = MovieFlix
+package.name = movieflix
+package.domain = org.studentproject
+source.dir = .
+source.include_exts = py,csv,kv,png,jpg,jpeg,mp4,mp3,wav
+version = 1.0
+requirements = python3,kivy,pandas,scikit-learn
+orientation = portrait
+fullscreen = 0
+
+# This is a starter example. Buildozer generates its own spec with `buildozer init`.
+# Copy relevant settings into the generated buildozer.spec and test dependencies.
